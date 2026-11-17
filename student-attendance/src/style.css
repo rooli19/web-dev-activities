@@ -1,0 +1,40 @@
+main {
+  max-width: 560px;
+}
+
+.attendance-list {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #cbd2da;
+  border-radius: 4px;
+  background: #fff;
+  list-style: none;
+}
+
+.attendance-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 14px;
+}
+
+.attendance-list li + li {
+  border-top: 1px solid #e1e5e9;
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.present {
+  background: #dcefe0;
+  color: #20572e;
+}
+
+.absent {
+  background: #f7dfdf;
+  color: #821d25;
+}
